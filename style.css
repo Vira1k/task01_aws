@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ 
+nav{
+    width: 100vh;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+    line-height: 40px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#d5e5ea,#dee2e4);
+}
