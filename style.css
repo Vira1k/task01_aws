@@ -5,46 +5,55 @@
 }
 
 body{
-    background-color: antiquewhite;
+    min-height: 100vh;
+    background-image: url(./image/pasta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
  
+ 
 nav{
-    width: 100%;
-    
-    
-    line-height: 30px;
-    padding: 0px 40px;
-    position: fixed;
-    background-image: linear-gradient(oklab(98.43499999999999% -0.00101 -0.00043),#fdfdfd);
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 9, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.logo img{
+    width: 100px;
+    height: 70px;
+    object-fit: contain;
+
 }
 
 
 nav ul{
-   float: right;
+   width: 100%;
+   list-style: none;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
 }
 nav li{
-    display: inline-block;
-    align-items: center;
-    list-style: none;
+    height: 50px;
 }
- nav li a{
-   font-size: 10px;
+    
+ nav a{
+    height: 100%;
+    padding: 0 30px;
     text-decoration: none;
-    text-transform: uppercase;
-    padding: 0px 10px;
+    display: flex;
+    align-items: center;
     color: black;
-
  }
 
-#logo span{
-    font-size: 18ps;
+nav a:hover{
+    background-color: rgb(163, 160, 165);
+} 
+nav li:first-child{
+    background-color: rgb(171, 167, 176);
+     
+
 }
-
-
- #button{
-    float: right;
- }
- #second{
-    font-size: 10px;
-    margin-left: 60px;
- }
