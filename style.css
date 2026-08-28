@@ -3,14 +3,48 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body{
+    background-color: antiquewhite;
+}
  
 nav{
-    width: 100vh;
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 100%;
     
-    line-height: 40px;
-    padding: 0px 100px;
+    
+    line-height: 30px;
+    padding: 0px 40px;
     position: fixed;
-    background-image: linear-gradient(#d5e5ea,#dee2e4);
+    background-image: linear-gradient(oklab(98.43499999999999% -0.00101 -0.00043),#fdfdfd);
 }
+
+
+nav ul{
+   float: right;
+}
+nav li{
+    display: inline-block;
+    align-items: center;
+    list-style: none;
+}
+ nav li a{
+   font-size: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    color: black;
+
+ }
+
+#logo span{
+    font-size: 18ps;
+}
+
+
+ #button{
+    float: right;
+ }
+ #second{
+    font-size: 10px;
+    margin-left: 60px;
+ }
