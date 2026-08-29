@@ -41,10 +41,11 @@ body{
     font-weight: 500;
  }
 
- .list a.active{
+ .list a.active {
     color: orangered;
     position: relative;
  }
+ 
 
 
 .links{
