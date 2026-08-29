@@ -10,12 +10,13 @@ body{
  
  
 .navbar{
-    height: 90px;
+    height: 65px;
     background-color: white;
     display: flex;
     align-items:  center;
     justify-content: space-between;
     padding: 0 65px;
+    position:sticky;
     
 }
 .logo img {
@@ -23,6 +24,27 @@ body{
     display: block;
    
 }
+ .list ul {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 80px;
+    padding: 0 20px;
+    
+ }
+ .list a{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+ }
+
+ .list a.active{
+    color: orangered;
+    position: relative;
+ }
 
 
 .links{
@@ -57,6 +79,19 @@ body{
     background-color: orangered;
 }
 
+.list a.active::after {
+    content: "";
+    position: absolute;
+
+    left: 0;
+    bottom: -15px;
+
+    width: 100%;
+    height: 2px;
+
+    background-color: orangered;
+}
+
 .book{
     text-decoration: none;
     background-color: orangered;
@@ -69,14 +104,118 @@ body{
     position: relative;
 }
 
+
+
 .hero img {
     width: 100%;
     height: 600px;
     display: block;
 }
 
-.hero-text {
+.text {
     position: absolute;
     top: 80px;
     left: 65px;
+}
+.text p{
+    color: orangered;
+    padding: 5px;
+}
+
+.text h1{
+    font-size: 60px;
+}
+
+.text span{
+    color: orangered;
+}
+
+.paragraph{
+    position: absolute;
+    top: 350px;
+    left: 65px;
+}
+
+.explore{
+    position: absolute;
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding:15px 25px;
+    border-radius: 20px;
+    font-weight: 600;
+    top: 470px;
+    left: 65px;
+}
+
+
+.our-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    color: orangered;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    font-size: 20px;
+
+}
+.explore{
+    position: absolute;
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding:15px 25px;
+    border-radius: 20px;
+    font-weight: 600;
+    top: 470px;
+    left: 65px;
+}
+.food-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px;
+}
+
+.food-card{
+    width: 250px;
+    padding: 12px;
+
+    border: 1px solid #ddd;
+    border-radius: 12px;
+
+    background-color: white;
+}
+.food-card img {
+    width: 100%;
+    height: 150px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+}
+
+.card-bottom{
+    color: orangered;
+}
+.card-bottom button{
+    color:white;
+    border-color:orangered;
+    border-radius: 3px;
+    border: 5px;
+    background-color: orangered;
+    cursor: pointer;
+    
+}
+.quick table{
+    display: flex;
+    align-items:center;
+   justify-content: center;
+   gap: 50px;
 }
