@@ -1,52 +1,51 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+  
+}
+body{
+    background-color: #eedbd5;
 }
 
-body{
-    font-family: arial, sans-serif;
-}
- 
- 
 .navbar{
-    height: 65px;
-    background-color: white;
+    height: 70px;
+    background-color: #bd948b;
     display: flex;
     align-items:  center;
     justify-content: space-between;
     padding: 0 65px;
-    position:sticky;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     
 }
+
 .logo img {
     width: 120px;
-    display: block;
-   
-}
- .list ul {
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    gap: 80px;
-    padding: 0 20px;
     
- }
- .list a{
-    list-style: none;
-    display: flex;
-    gap: 20px;
+}
+
+.book{
+    margin-right: 90px;
     text-decoration: none;
-    color: black;
-    font-weight: 500;
- }
+    background-color: orangered;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-weight: 600;
+}
 
- .list a.active {
-    color: orangered;
+.hero {
     position: relative;
- }
- 
+}
 
+.hero img {
+    width: 100%;
+    height: 700px;
+    display: block;
+}
 
 .links{
    list-style: none;
@@ -59,68 +58,21 @@ body{
     text-decoration: none;
     color:black;
     font-weight: 500;
- }
+}
   
- .links a.active{
+.links a.active{
     color: orangered;
-    position: relative;
- }
-
-
-.links a.active::after {
-    content: "";
-    position: absolute;
-
-    left: 0;
-    bottom: -15px;
-
-    width: 100%;
-    height: 2px;
-
-    background-color: orangered;
-}
-
-.list a.active::after {
-    content: "";
-    position: absolute;
-
-    left: 0;
-    bottom: -15px;
-
-    width: 100%;
-    height: 2px;
-
-    background-color: orangered;
-}
-
-.book{
-    text-decoration: none;
-    background-color: orangered;
-    color: white;
-    padding: 12px 22px;
-    border-radius: 10px;
-    font-weight: 600;
-}
-.hero {
-    position: relative;
-}
-
-
-
-.hero img {
-    width: 100%;
-    height: 600px;
-    display: block;
 }
 
 .text {
     position: absolute;
-    top: 80px;
+    top: 130px;
     left: 65px;
 }
+
 .text p{
     color: orangered;
-    padding: 5px;
+    padding: 10px;
 }
 
 .text h1{
@@ -136,6 +88,9 @@ body{
     top: 350px;
     left: 65px;
 }
+.paragraph p{
+    font-size: larger;
+}
 
 .explore{
     position: absolute;
@@ -148,7 +103,6 @@ body{
     top: 470px;
     left: 65px;
 }
-
 
 .our-menu{
     display: flex;
@@ -157,6 +111,7 @@ body{
     margin: 25px;
     color: orangered;
 }
+
 .title{
     display: flex;
     align-items: center;
@@ -165,6 +120,7 @@ body{
     font-size: 20px;
 
 }
+
 .explore{
     position: absolute;
     text-decoration: none;
@@ -176,6 +132,30 @@ body{
     top: 470px;
     left: 65px;
 }
+
+.list ul {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 80px;
+    padding: 0 20px;
+    
+}
+
+.list a{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500; 
+}
+ 
+.list a.active {
+    color: orangered;
+    position: relative;
+}
+
 .food-container{
     display: flex;
     align-items: center;
@@ -193,6 +173,7 @@ body{
 
     background-color: white;
 }
+
 .food-card img {
     width: 100%;
     height: 150px;
@@ -205,6 +186,7 @@ body{
 .card-bottom{
     color: orangered;
 }
+
 .card-bottom button{
     color:white;
     border-color:orangered;
@@ -214,6 +196,7 @@ body{
     cursor: pointer;
     
 }
+
 .quick table{
     display: flex;
     align-items:center;
