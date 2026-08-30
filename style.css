@@ -4,12 +4,12 @@
   
 }
 body{
-    background-color: #eedbd5;
+    background-color: #faf1e1;
 }
 
 .navbar{
     height: 70px;
-    background-color: #bd948b;
+    background-color:#fffaf3;
     display: flex;
     align-items:  center;
     justify-content: space-between;
@@ -108,8 +108,18 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 25px;
+    margin: 40px;
+    gap: 25px;
     color: orangered;
+}
+.our-menu span h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+.our-menu span{
+    width: 55px;
+    height: 3px;
+    background-color: orangered;
 }
 
 .title{
@@ -132,13 +142,16 @@ body{
     top: 470px;
     left: 65px;
 }
+ 
 
 .list ul {
+    list-style: none;
     display: flex;
     align-items: center;
     justify-content:center;
     gap: 80px;
     padding: 0 20px;
+    margin: 40px;
     
 }
 
@@ -183,17 +196,24 @@ body{
     border-radius: 8px;
 }
 
-.card-bottom{
-    color: orangered;
+.card-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 12px;
 }
 
 .card-bottom button{
     color:white;
+    width: 90px;
+    height: 28px;
     border-color:orangered;
     border-radius: 3px;
     border: 5px;
     background-color: orangered;
     cursor: pointer;
+    align-items: flex-end;
     
 }
 
