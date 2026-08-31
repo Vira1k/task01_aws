@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-  
 }
 #menu-toggle {
     display: none;
@@ -28,10 +27,12 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
-    
+    z-index:100;
 }
 
+.links a:hover{
+    color: red;
+}
 .logo img {
     width: 120px;
     
@@ -44,6 +45,10 @@ body{
     padding: 12px 22px;
     border-radius: 10px;
     font-weight: 600;
+}
+
+.book:hover {
+   background-color: rgb(202, 20, 3);
 }
 
 .hero {
@@ -64,7 +69,7 @@ body{
 }
  
 .links a{
-    text-decoration: none;
+    text-decoration: none;  
     color:black;
     font-weight: 500;
 }
@@ -112,6 +117,9 @@ body{
     top: 470px;
     left: 65px;
 }
+.explore:hover{
+    background-color: rgb(202, 20, 3);
+}
 
 .our-menu{
     display: flex;
@@ -156,6 +164,9 @@ body{
     color: black;
     font-weight: 500; 
 }
+.list a:hover{
+    color: red;
+}
  
 .list a.active {
     color: orangered;
@@ -179,8 +190,8 @@ body{
     border-radius: 12px;
     background-color: white;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-    transition: 0.5s;
 }
+
 .food-card {
     transition: 0.5s;
 }
@@ -206,8 +217,7 @@ body{
 
 .card-bottom button {
     color: white;
-    width: 90px;
-    height: 28px;
+    padding: 10px 20px;
     border: 1px solid orangered;
     border-radius: 5px;
     background-color: orangered;
@@ -233,8 +243,9 @@ body{
    
 } */
 .footer {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 40px;
 
     background-color:white;
