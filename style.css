@@ -37,9 +37,7 @@ body{
     width: 120px;
     
 }
-.html{
-    scroll-behavior: smooth;
-}
+ 
 .book{
     text-decoration: none;
     background-color: orangered;
