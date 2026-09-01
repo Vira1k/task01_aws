@@ -339,7 +339,7 @@ body{
     }
     .hero img{
         width: 100%;
-        height: 250px;
+        height: 320px;
         position: relative;
     }
 
@@ -347,20 +347,20 @@ body{
     
     .text  {
         position: absolute;
-        font-size: 15px;
+        font-size: 18px;
         top: 25px;
         left: 35px;
     }
     
     .paragraph{
         position: absolute;
-        top: 100px;
+        top: 130px;
         font-size:10px;
         left: 35px;
     }
     .explore{
         position: absolute;
-        top: 175px;
+        top: 215px;
         font-size: 5px;
         left: 35px;
     }
